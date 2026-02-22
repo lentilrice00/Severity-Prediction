@@ -5,9 +5,12 @@ This project is dedicated to predict the severity of a given accident based on d
 The objective of the study is to predict a crash severity on traffic. Since the project involved is to labelize the severity of the given accident based on information available, it will be formulated as **classification** problem. Model performance will be evaluated using accuracy and sparse categorical crossentropy metrics.
 
 # **Data Acquisition and Insights**
-The data involved in the study is from [US Accidents (2016 - 2023)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?select=US_Accidents_March23.csv) from Kaggle. It contains accident data collected from February 2016 to March 2023 for the Contiguous United States. The features and description of features of the data are provided [here](https://smoosavi.org/datasets/us_accidents). In this section, statistical descriptions such as mean, standard deviation, min, max, and median of variables will be analyzed to understand the trend of the data. Next, GIS Spatial pattern analysis, histograms for data distributions of numerical variables, pie-charts for data distribution of categorical variables, and a look through of correlation of the variables using heatmaps will be performed to get the feel of the type of data being dealt. 
-![download](https://github.com/user-attachments/assets/fd80ed06-0c1f-49a5-800c-68335478814d)
-![download](https://github.com/user-attachments/assets/155aad0e-b539-4f24-a51a-25f0548b1ec0)
+The data involved in the study is from [US Accidents (2016 - 2023)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?select=US_Accidents_March23.csv) from Kaggle. It contains accident data collected from February 2016 to March 2023 for the Contiguous United States. The features and description of features of the data are provided [here](https://smoosavi.org/datasets/us_accidents). In this section, statistical descriptions such as mean, standard deviation, min, max, and median of variables will be analyzed to understand the trend of the data. Next, GIS Spatial pattern analysis, histograms for data distributions of numerical variables, pie-charts for data distribution of categorical variables, and a look through of correlation of the variables using heatmaps will be performed to get the feel of the type of data being dealt.
+
+<img width="1233" height="719" alt="image" src="https://github.com/user-attachments/assets/b07d1d78-4bc0-4608-9d06-caa0d58b612e" />
+
+<img width="1231" height="721" alt="image" src="https://github.com/user-attachments/assets/6ef8e68c-da2a-4c03-b3e5-ecf665613ab7" />
+
 **Limitation in this project**: Implementation of Folium would have been effective for analysis. However, due to limited free RAM resources, matplotlib is being used.
 
 **Limitation in this project**: Lack of system memory constrained the study from developing further visualizations such as histographs, pie-charts, and heatmaps.
@@ -29,11 +32,13 @@ The best model for ANN is loaded for evaluation. After evaluation it was realize
 
 **Limitation in this project**: Due to lack of computational resources, background sample was reduced to 100 for shap explanation
 
+<img width="1139" height="678" alt="image" src="https://github.com/user-attachments/assets/808810e1-ec72-4799-be32-de827b9abb7f" />
 
-![download](https://github.com/user-attachments/assets/287a720c-373c-44cf-bb65-44431f399c9f)
-![download](https://github.com/user-attachments/assets/5d297246-2f60-449e-ac73-e6164d145c98)
-![download](https://github.com/user-attachments/assets/3c3571fa-10c5-4e25-8c2c-565415e955d4)
-![download](https://github.com/user-attachments/assets/61ff84a4-3c04-4ecb-92cc-8242d40414fb)
+<img width="1185" height="677" alt="image" src="https://github.com/user-attachments/assets/9247afcf-3d7f-4874-8686-7b1d0a5ac11f" />
+
+<img width="1139" height="680" alt="image" src="https://github.com/user-attachments/assets/1ccf9f87-c6e2-495d-98e5-8f89151ee93c" />
+
+<img width="1146" height="674" alt="image" src="https://github.com/user-attachments/assets/93769551-56db-475f-b342-b41a7d03a5a7" />
 
 # **Difficulty during this study and how was it solved?**
 
